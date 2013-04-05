@@ -12,11 +12,12 @@ asciiJSON.escapeNonAsciis = (text) ->
   i = 0
   while i < text.length
     code = text.charCodeAt(i)
-    if code < 128
-      chars.push text[i]
-    else
+    if code >= 128
       chars.push '\\u'
       chars.push code.toString(16)
+    else
+      chars.push '\\' if code < 32 or code is 34 or code is 92
+      chars.push text[i]
     i++
   chars.join('')
 

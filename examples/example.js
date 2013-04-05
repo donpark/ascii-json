@@ -8,7 +8,7 @@
 
   troublemaker = {
     ascii: "hello world",
-    nonascii: "안녕하세요"
+    nonascii: "안녕하세요  \\ \n \t \""
   };
 
   asciiOnly = asciiJSON.stringify(troublemaker);

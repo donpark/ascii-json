@@ -1,6 +1,6 @@
 {
   "name": "ascii-json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generates ASCII-only JSON with escaped non-ASCII chracters.",
   "main": "lib/ascii-json.js",
   "repository": {
@@ -15,6 +15,6 @@
   "homepage": "https://github.com/donpark/ascii-json",
   "license": "BSD",
   "devDependencies": {
-    "should": "~1.2.2"
+    "should": "*"
   }
 }
