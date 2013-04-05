@@ -2,7 +2,7 @@ Generates ASCII-only JSON with escaped non-ASCII chracters.
 
 ## Install
 
-        npm install asciijson
+        npm install ascii-json
 
 ## Examples
 
