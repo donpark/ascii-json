@@ -11,7 +11,8 @@
     "ascii",
     "json"
   ],
-  "author": "donpark@docuverse.com",
+  "author": "Don Park <donpark@docuverse.com>",
+  "homepage": "https://github.com/donpark/ascii-json",
   "license": "BSD",
   "devDependencies": {
     "should": "~1.2.2"
