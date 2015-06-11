@@ -1,5 +1,12 @@
 Generates ASCII-only JSON with escaped non-ASCII chracters.
 
+## Why
+
+I wrote this to send UTF-8 JSON data as HTTP 1.x header value
+which can only use ISO-8859-1 characters.
+
+BASE-64 could've been used but result wouldn't be as readable.
+
 ## Install
 
         npm install ascii-json
