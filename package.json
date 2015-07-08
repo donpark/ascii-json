@@ -1,6 +1,6 @@
 {
   "name": "ascii-json",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Generates ASCII-only JSON with escaped non-ASCII chracters.",
   "main": "lib/ascii-json.js",
   "repository": {
