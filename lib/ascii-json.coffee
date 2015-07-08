@@ -35,9 +35,12 @@ asciiJSON.ignoreNonAsciis = (text) ->
   chars.join('')
 
 
-asciiJSON.stringify = (object) ->
+asciiJSON.stringify = (object, ignoreNonAscii) ->
   utf8JSON = JSON.stringify(object)
-  asciiJSON.escapeNonAsciis(utf8JSON)
+  if ignoreNonAscii
+    asciiJSON.ignoreNonAsciis(utf8JSON)
+  else
+    asciiJSON.escapeNonAsciis(utf8JSON)
 
 
 # Use JSON.parse which will take care of restoring non-ASCII
