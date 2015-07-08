@@ -26,6 +26,12 @@ Escape non-ASCII strings
 
         // output: this is not \uc5d0\uc2a4\ud0a4"
 
+Ignore non-ASCII strings
+        
+        console.log(asciiJSON.ignoreNonAsciis('this is not 에스키'));
+
+        // output: this is not 
+
 Stringify object with non-ASCII property value
 
         troublemaker = {
